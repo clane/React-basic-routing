@@ -6,7 +6,7 @@ class Component3 extends Component {
     return (
       <div>
         <h2>Component 3</h2>
-        <img class="cat" src={cat3} alt="" />		
+        <img className="cat" src={cat3} alt="" />		
       </div>
     );
   }

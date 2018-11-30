@@ -5,7 +5,7 @@ import Component2 from "./Component2.js";
 import Component3 from "./Component3.js";
 import Component4 from "./Component4.js";
 
-import { BrowserRouter, Route, Redirect, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 class App extends Component {
   render() {
