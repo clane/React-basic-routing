@@ -22,8 +22,7 @@ time, mark, audio, video {
 
 /* begin focus styles */
 *:focus {
-    box-shadow: 0 0 0 1px white, 0 0 0 3px black, 0 0 0 4px white;
-    z-index: 1;
+	outline: 5px dotted #00f;`
 }
 /* end  focus styles */
 

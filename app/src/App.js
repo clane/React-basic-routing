@@ -13,8 +13,11 @@ class App extends Component {
       <div className="App">
         <h1>Basic Routing in React</h1>
 
-			<div><a href="https://github.com/clane/React-basic-routing">https://github.com/clane/React-basic-routing</a></div>
-
+        <div>
+          <a href="https://github.com/clane/React-basic-routing">
+            https://github.com/clane/React-basic-routing
+          </a>
+        </div>
 
         <BrowserRouter>
           <div>
@@ -31,7 +34,7 @@ class App extends Component {
               <Route path="/Component2" component={Component2} />
               <Route path="/Component3" component={Component3} />
               <Route path="/Component4" component={Component4} />
-			        <Redirect from="/" to="/Component1"/>
+              <Redirect from="/" to="/Component1" />
             </Switch>
           </div>
         </BrowserRouter>
