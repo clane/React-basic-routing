@@ -5,7 +5,7 @@
 div[role="main"] { border:2px solid #000; }
 
 /* begin routing link styles */
-ul[role="navigation"]  { background-color:yellow; width:50%; margin:20px auto; padding:10px;  } 
+ul[role="navigation"]  { background-color:yellow; margin:20px auto; padding:10px;  } 
 ul[role="navigation"]  li { list-style-type:none;  } 
 /* end routing link styles */
 
