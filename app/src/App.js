@@ -36,7 +36,7 @@ class App extends Component {
                 <Route path="/Component2" component={Component2} />
                 <Route path="/Component3" component={Component3} />
                 <Route path="/Component4" component={Component4} />
-                <Redirect from="/" to="/Component1" />
+                <Redirect from="/" to="/" />
               </Switch>
             </div>
 
